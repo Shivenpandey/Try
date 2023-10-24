@@ -8,7 +8,7 @@ public class Waits {
 	public static void main(String[] args) {
 		WebDriver wd = new ChromeDriver();
 		wd.get("https://www.saucedemo.com/");
-		
+		wd.quit();
 
 	}
 
